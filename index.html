@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Avaliação - Eleições 2026 (SP)</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #e74c3c;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+            --border-color: #ddd;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 40px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 10px;
+        }
+
+        .metodologia-box {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .metodologia-box h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .formula {
+            font-family: 'Courier New', Courier, monospace;
+            background: #34495e;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 1.1em;
+            margin: 15px 0;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 800px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .score {
+            font-weight: bold;
+            color: var(--secondary-color);
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .highlight-section {
+            background-color: #fdfae6;
+            padding: 20px;
+            border-left: 4px solid #f1c40f;
+            border-radius: 0 8px 8px 0;
+            margin-top: 30px;
+        }
+
+        .highlight-section h3 {
+            margin-top: 0;
+            color: #d35400;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Painel de Avaliação de Candidaturas - São Paulo 2026</h1>
+    <p style="text-align: center;">Análise de candidatos do campo progressista e de esquerda baseada em métricas de gestão, histórico e viabilidade de propostas.</p>
+
+    <div class="metodologia-box">
+        <h3>Metodologia de Avaliação</h3>
+        <p>A avaliação consolida dados em quatro pilares para gerar um Score Final (de 0 a 10):</p>
+        <ul>
+            <li><strong>M (Presença e Assiduidade) - 15%:</strong> Baseado nas faltas não justificadas.</li>
+            <li><strong>G (Gestão de Verbas) - 15%:</strong> Percentual de limite utilizado e rigor na prestação de contas.</li>
+            <li><strong>H (Histórico e Relatorias) - 35%:</strong> Votações, projetos e relevância prévia nos 8 pilares temáticos.</li>
+            <li><strong>P (Propostas e Viabilidade) - 35%:</strong> Consistência técnica e fiscal das propostas apresentadas.</li>
+        </ul>
+        <div class="formula">
+            Score = (M &times; 0,15) + (G &times; 0,15) + (H &times; 0,35) + (P &times; 0,35)
+        </div>
+    </div>
+
+    <h2>Executivo Estadual (Governador - SP)</h2>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Candidato(a)</th>
+                    <th>Partido</th>
+                    <th>Presença / Gestão de Verbas</th>
+                    <th>Pilares Temáticos Principais</th>
+                    <th>Projetos e Realizações Relevantes</th>
+                    <th>Score Estimado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Fernando Haddad</strong></td>
+                    <td>PT</td>
+                    <td>Prestação aprovada (TCU/TSE)</td>
+                    <td>Saúde, Educação, Economia, Mobilidade</td>
+                    <td>Ex-Ministro da Educação (FIES/Prouni), Ex-Prefeito de SP (Passe Livre Estudantil, Plano Diretor).</td>
+                    <td class="score">8,8</td>
+                </tr>
+                <tr>
+                    <td><strong>Vivian Mendes</strong></td>
+                    <td>UP</td>
+                    <td>Campanha autofinanciada/militante</td>
+                    <td>Direitos Trabalhistas, Transporte, Moradia</td>
+                    <td>Liderança do movimento de moradia; defesa do Passe Livre e reestatização da Sabesp.</td>
+                    <td class="score">6,8</td>
+                </tr>
+                <tr>
+                    <td><strong>Carlos Machado</strong></td>
+                    <td>PCB</td>
+                    <td>Recursos restritos</td>
+                    <td>Direitos Trabalhistas, Economia, Educação</td>
+                    <td>Movimento de trabalhadores da construção civil; revogação de reformas.</td>
+                    <td class="score">6,5</td>
+                </tr>
+                <tr>
+                    <td><strong>Vera Lúcia</strong></td>
+                    <td>PSTU</td>
+                    <td>Autofinanciamento</td>
+                    <td>Direitos Trabalhistas, Minorias, Meio Amb.</td>
+                    <td>Dirigente sindical; estatização sob controle dos trabalhadores.</td>
+                    <td class="score">6,3</td>
+                </tr>
+                <tr>
+                    <td><strong>Izadora Dias</strong></td>
+                    <td>PCO</td>
+                    <td>Recursos mínimos</td>
+                    <td>Segurança Pública, Direitos Sociais</td>
+                    <td>Foco em reestruturação do modelo policial e liberdade de organização popular.</td>
+                    <td class="score">5,5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Senado Federal (2 Vagas por SP)</h2>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Candidato(a)</th>
+                    <th>Partido</th>
+                    <th>Presença / Gestão de Verbas</th>
+                    <th>Pilares Temáticos Principais</th>
+                    <th>Projetos e Realizações Relevantes</th>
+                    <th>Score Estimado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Marina Silva</strong></td>
+                    <td>REDE</td>
+                    <td>Alta Presença / Baixo Gasto</td>
+                    <td>Meio Ambiente, Minorias, Saúde</td>
+                    <td>Criadora do PPCDAm; defesa de terras indígenas e marco do carbono.</td>
+                    <td class="score">9,2</td>
+                </tr>
+                <tr>
+                    <td><strong>Simone Tebet</strong></td>
+                    <td>PSB</td>
+                    <td>Alta Presença / Gasto Racional</td>
+                    <td>Economia, Educação, Minorias</td>
+                    <td>Presidência da CCJ; Fundo de Combate à Pobreza, Equidade Salarial.</td>
+                    <td class="score">8,9</td>
+                </tr>
+                <tr>
+                    <td><strong>Maíra de Souza</strong></td>
+                    <td>UP</td>
+                    <td>N/A / Autofinanciada</td>
+                    <td>Educação, Minorias, Trabalhistas</td>
+                    <td>Valorização da carreira docente e igualdade racial na periferia.</td>
+                    <td class="score">6,7</td>
+                </tr>
+                <tr>
+                    <td><strong>Petter Maahs</strong></td>
+                    <td>PCB</td>
+                    <td>N/A / Autofinanciado</td>
+                    <td>Direitos Trabalhistas, Saúde Pública</td>
+                    <td>Atuação sindical na consolidação e fortalecimento do SUS.</td>
+                    <td class="score">6,4</td>
+                </tr>
+                <tr>
+                    <td><strong>Dra. Eliana Ferreira</strong></td>
+                    <td>PSTU</td>
+                    <td>N/A / Baixa arrecadação</td>
+                    <td>Minorias, Segurança, Trabalhistas</td>
+                    <td>Advocacia popular e apoio a greves e movimentos populares.</td>
+                    <td class="score">6,2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Câmara dos Deputados (Deputado Federal - SP)</h2>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Candidato(a)</th>
+                    <th>Partido</th>
+                    <th>Presença / Gestão de Verbas</th>
+                    <th>Pilares Temáticos Principais</th>
+                    <th>Projetos e Realizações Relevantes</th>
+                    <th>Score Estimado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Erika Hilton</strong></td>
+                    <td>PSOL</td>
+                    <td>> 95% / Média</td>
+                    <td>Minorias, Trabalhistas, Saúde</td>
+                    <td>Liderança LGBTQIA+; articulação da PEC contra a jornada 6x1.</td>
+                    <td class="score">9,1</td>
+                </tr>
+                <tr>
+                    <td><strong>Guilherme Cortez</strong></td>
+                    <td>PSOL</td>
+                    <td>> 93% (ALESP) / Responsável</td>
+                    <td>Meio Ambiente, Minorias, Educação</td>
+                    <td>Defesa das universidades públicas, juventude e mobilidade sustentável.</td>
+                    <td class="score">8,8</td>
+                </tr>
+                <tr>
+                    <td><strong>Arlindo Chinaglia</strong></td>
+                    <td>PT</td>
+                    <td>> 92% / Contido</td>
+                    <td>Saúde, Economia, Trabalhistas</td>
+                    <td>Ex-Presidente da Câmara; orçamentos de incentivo ao SUS e emprego.</td>
+                    <td class="score">8,6</td>
+                </tr>
+                <tr>
+                    <td><strong>Andrea Werner</strong></td>
+                    <td>PSB</td>
+                    <td>> 94% (ALESP) / Transparente</td>
+                    <td>Minorias, Saúde, Educação</td>
+                    <td>Forte atuação no neurodesenvolvimento/autismo e inclusão escolar.</td>
+                    <td class="score">8,5</td>
+                </tr>
+                <tr>
+                    <td><strong>Tabata Amaral</strong></td>
+                    <td>PSB</td>
+                    <td>> 96% / Baixo</td>
+                    <td>Educação, Economia, Ciência</td>
+                    <td>Coautora do Pé-de-Meia; foco em métricas de aprendizagem e inovação.</td>
+                    <td class="score">8,4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Assembleia Legislativa (Deputado Estadual - SP)</h2>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Candidato(a)</th>
+                    <th>Partido</th>
+                    <th>Presença / Gestão de Verbas</th>
+                    <th>Pilares Temáticos Principais</th>
+                    <th>Projetos e Realizações Relevantes</th>
+                    <th>Score Estimado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Marina Helou</strong></td>
+                    <td>REDE</td>
+                    <td>> 95% / Austera</td>
+                    <td>Meio Ambiente, Saúde, 1ª Infância</td>
+                    <td>Pauta climática, saúde mental de jovens e mobilidade urbana.</td>
+                    <td class="score">8,9</td>
+                </tr>
+                <tr>
+                    <td><strong>Bancada Ativista</strong></td>
+                    <td>PSOL</td>
+                    <td>> 90% / Coletivo</td>
+                    <td>Minorias, Meio Ambiente</td>
+                    <td>Mandato coletivo pioneiro; projetos voltados à população negra/LGBTQIA+.</td>
+                    <td class="score">8,5</td>
+                </tr>
+                <tr>
+                    <td><strong>Eduardo Suplicy</strong></td>
+                    <td>PT</td>
+                    <td>> 92% / Contido</td>
+                    <td>Trabalhistas, Economia, Minorias</td>
+                    <td>Defensor histórico da Renda Básica de Cidadania; populações de rua.</td>
+                    <td class="score">8,3</td>
+                </tr>
+                <tr>
+                    <td><strong>Thainara Faria</strong></td>
+                    <td>PT</td>
+                    <td>> 93% / Regular</td>
+                    <td>Educação, Minorias, Saúde</td>
+                    <td>Projetos para equidade racial e bolsas para estudantes periféricos.</td>
+                    <td class="score">8,1</td>
+                </tr>
+                <tr>
+                    <td><strong>Leci Brandão</strong></td>
+                    <td>PCdoB</td>
+                    <td>> 89% / Regular</td>
+                    <td>Minorias, Cultura, Trabalhistas</td>
+                    <td>Leis de combate ao preconceito de raça/religião e valorização cultural.</td>
+                    <td class="score">8,0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="highlight-section">
+        <h3>Destaques da Renovação Progressista em SP</h3>
+        <p>A análise destaca três perfis emergentes no legislativo estadual e federal que conseguem unir forte aderência a pautas sociais com alta produtividade legislativa:</p>
+        <ul>
+            <li><strong>Guilherme Cortez (PSOL):</strong> Foco na interiorização do debate ambiental e fiscalização, com forte apelo junto à juventude.</li>
+            <li><strong>Erika Hilton (PSOL):</strong> Capacidade de articular pautas estruturantes do trabalho (ex: fim da escala 6x1) conectando-as à proteção das minorias.</li>
+            <li><strong>Marina Helou (REDE):</strong> Formulação técnica baseada em dados, com liderança destacada na pauta climática e proteção à primeira infância na ALESP.</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
